@@ -1,0 +1,18 @@
+body {
+    background-color: #0890F1;
+}
+#main {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 0.25em;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: 'FoundersGrotesk', sans-serif;
+    font-size: 72px;
+    line-height: 64px;
+    font-weight: normal;
+    font-style: normal;
+}
+
