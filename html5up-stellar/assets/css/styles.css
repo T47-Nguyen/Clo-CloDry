@@ -17,44 +17,25 @@ h1 {
 }
 /*soup*/
 
-/*.statistics li .style1 .pumpkin img{
-    -moz-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    padding: 1.5em;
-    color: #ffffff;
-    text-align: center;
-    width: 5em;
-}*/
-* {
-    box-sizing: border-box;
-  }
-  
-  .flex-container {
+.pictures{
     display: flex;
-    flex-direction: row;
-    font-size: 30px;
+   
+}
+.gallery{
+    width: 25%;
+    background-color: bisque;
     text-align: center;
-  }
-  
-  .flex-item-left {
-    background-color: #f1f1f1;
     padding: 10px;
-    flex: 50%;
-  }
-  
-  .flex-item-right {
-    background-color: dodgerblue;
-    padding: 10px;
-    flex: 50%;
-  }
-  
-  /* Responsive layout - makes a one column-layout instead of two-column layout */
-  @media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
+    border-radius: 10px;
+    margin: 1%;
+}
+.gallery img {
+width: 100%;
+height: fit-content;
+
+}
+.gallery:hover {
+    border: 1px solid #777;
   }
 /* live music*/
 .mainspecial .livemusic .image1 {
