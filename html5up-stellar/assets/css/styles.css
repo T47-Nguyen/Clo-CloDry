@@ -6,6 +6,7 @@ body {
     color: black;
     border-radius: 0.25em;
     font-weight: 500;
+  
 }
 
 h1 {
@@ -14,6 +15,7 @@ h1 {
     line-height: 64px;
     font-weight: normal;
     font-style: normal;
+    color: #4836BF;
 }
 /*soup*/
 
@@ -46,4 +48,17 @@ height: fit-content;
 	margin-left: 4em;
 	padding: 0.65em;
 	border: solid 1px;
+}
+/*booking */
+.booking--content {
+    width: 95%;
+}
+.booking--content {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 90%;
+}
+.booking--steps {
+    flex-direction: column;
+    text-align: center;
 }
