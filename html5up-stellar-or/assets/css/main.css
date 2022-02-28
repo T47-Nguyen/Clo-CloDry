@@ -1,11 +1,26 @@
 @import url(fontawesome-all.min.css);
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+/*@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';*/
 
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+.image.left:hover {
+    border: 1px solid #777;
+  }
+.image.right:hover {
+    border: 1px solid #777;
+  }
+.image.fit:hover {
+    border: 1px solid #777;
+  }
+
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
