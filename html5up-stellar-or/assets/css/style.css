@@ -1,8 +1,11 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 72px;
-    line-height: 64px;
-    font-weight: normal;
-    font-style: normal;
-    color: #4836BF;
+#main {
+    background-color: #F2DFA7;
+    color: black;
+    border-radius: 0.25em;
+    font-weight: 500;
+  
+}
+h1 {
+    color: lightpink;
+    font-weight: 700;
 }
