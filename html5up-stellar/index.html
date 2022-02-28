@@ -159,7 +159,7 @@
 			<!--Menu-->
 			<section id="menulink" class="menu">
 				<div>
-					<img src="./images/Screenshot 2022-02-27 at 11.34.14.png" alt="">
+					<span class="image fit"><img id="image-menu" src="./images/Screenshot 2022-02-27 at 11.34.14.png" alt=""></span>
 				</div>
 
 			</section>
@@ -193,132 +193,61 @@
 								secured you a spot for 30 minutes so please finish your order before that.</small>
 						</div>
 					</section>
-					<div class="booking--content">
-						<div>
-							<div class="booking--steps">
-								<div class="step-list">
-									<div class="booking-steps__step active"><span>1</span>
-										<!---->
-									</div>
-									<div class="booking-steps__step"><span>2</span>
-										<div class="booking-steps__line"></div>
-									</div>
-									<div class="booking-steps__step"><span>3</span>
-										<div class="booking-steps__line"></div>
-									</div>
-									<div class="booking-steps__step"><span>4</span>
-										<div class="booking-steps__line"></div>
-									</div>
-								</div>
-								<h3 class="heading-beta">Address</h3>
-								<!---->
-								<!---->
-								<!---->
-							</div>
-							<div class="booking--body-container">
-								<div class="booking--form">
-									<!---->
-									<section class="booking-form-section section--boxed">
-										<div class="edit-booking-address">
-											<section>
-												<div>
-													<h4 class="heading heading-gamma"> Tell us about your location </h4>
-													<!---->
-													<article class="postcode-address">
-														<div class="postcode-address-input">
-															<div class="input input-text input-m"><label for="">Enter UK
-																	postcode <span class="text-grey-dark"> (or <a
-																			style="cursor: pointer;">log in</a> for your
-																		recent addresses) </span></label><input
-																	type="text" placeholder="e.g. N11 1AA"
-																	class="input-postcode">
-																<!----><small class="input-note"><a href=""> Don't know
-																		your postcode? <i
-																			class="icon-arrow-bold"></i></a></small>
-															</div>
-															<!---->
-															<!---->
-															<!---->
-														</div>
-													</article>
-													<!---->
-													<!---->
-												</div>
-											</section>
-											<!---->
-											
-										</div>
-									</section>
-									<!---->
-									<!---->
-									<!---->
-									<!---->
-									<!---->
-								</div>
-								<div class="booking-summary">
-									<div class="booking-summary-body"><a class="booking-summary-close mobile"><i
-												class="icon-close-circle-regular"></i></a>
-										<h2 class="heading-beta"> Your summary
-											<!---->
-										</h2>
-										<section class="booking-summary-section-line prompt to-do"><i
-												class="icon-check-circle-thin step-indicator f-16"></i>
-											<div class="booking-summary-section-line__content">
-												<h3 class="heading-delta"> Address </h3><span class="step-prompt">Enter
-													your address</span>
-												<!---->
-												<!---->
-											</div><i class="icon-edit-thin"></i>
-										</section>
-										<section class="booking-summary-section-line to-do"><i
-												class="icon-check-circle-thin step-indicator f-16"></i>
-											<div class="booking-summary-section-line__content">
-												<h3 class="heading-delta">Collection</h3>
-												<!---->
-											</div><i class="icon-edit-thin"></i>
-										</section>
-										<section class="booking-summary-section-line to-do"><i
-												class="icon-check-circle-thin step-indicator f-16"></i>
-											<div class="booking-summary-section-line__content">
-												<h3 class="heading-delta">Delivery</h3>
-												<!---->
-											</div><i class="icon-edit-thin"></i>
-										</section>
-										<section class="booking-summary-section-line to-do"><i
-												class="step-indicator f-16 icon-check-circle-thin"></i>
-											<div class="booking-summary-section-line__content">
-												<h3 class="heading-delta">Services</h3><span class="step-prompt">Select
-													your services</span>
-												<!---->
-											</div><i class="icon-edit-thin"></i>
-										</section>
-										<section class="booking-summary-section-line to-do"><i
-												class="icon-check-circle-thin step-indicator f-16"></i>
-											<div class="booking-summary-section-line__content">
-												<h3 class="heading-delta">Contact details</h3>
-												<div class="step-prompt">Add your contact details</div>
-											</div><i class="icon-edit-thin"></i>
-										</section>
-										<section class="booking-summary-section-line to-do"><i
-												class="icon-check-circle-thin step-indicator f-16"></i>
-											<div class="booking-summary-section-line__content">
-												<h3 class="heading-delta">Payment</h3><span class="step-prompt">Add your
-													payment details</span>
-												<!---->
-											</div><i class="icon-edit-thin"></i>
-										</section>
-										<hr class="summary-separator">
-										<!---->
-									</div>
-									<div class="booking-summary-foot"><button disabled="disabled" type="button"
-											class="btn btn-beta btn-m btn-full"> Next </button>
-										<!---->
-									</div>
-								</div>
-							</div>
-						</div>
+				</header>
 			</section>
-			<!--booking end-->
+
+			<section id="second" class="main">
+				<h2>Form</h2>
+				<form method="post" action="#">
+					<div class="row gtr-uniform">
+						<div class="col-6 col-12-xsmall">
+							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+						</div>
+						<div class="col-6 col-12-xsmall">
+							<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+						</div>
+						<div class="col-12">
+							<select name="demo-category" id="demo-category">
+								<option value="">- Category -</option>
+								<option value="1">Manufacturing</option>
+								<option value="1">Shipping</option>
+								<option value="1">Administration</option>
+								<option value="1">Human Resources</option>
+							</select>
+						</div>
+						<div class="col-4 col-12-small">
+							<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+							<label for="demo-priority-low">Low</label>
+						</div>
+						<div class="col-4 col-12-small">
+							<input type="radio" id="demo-priority-normal" name="demo-priority">
+							<label for="demo-priority-normal">Normal</label>
+						</div>
+						<div class="col-4 col-12-small">
+							<input type="radio" id="demo-priority-high" name="demo-priority">
+							<label for="demo-priority-high">High</label>
+						</div>
+						<div class="col-6 col-12-small">
+							<input type="checkbox" id="demo-copy" name="demo-copy">
+							<label for="demo-copy">Email me a copy</label>
+						</div>
+						<div class="col-6 col-12-small">
+							<input type="checkbox" id="demo-human" name="demo-human" checked>
+							<label for="demo-human">Not a robot</label>
+						</div>
+						<div class="col-12">
+							<textarea name="demo-message" id="demo-message" placeholder="Enter your message"
+								rows="6"></textarea>
+						</div>
+						<div class="col-12">
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" class="primary" /></li>
+								<li><input type="reset" value="Reset" /></li>
+							</ul>
+						</div>
+					</div>
+				</form>
+			</section>
 		</div>
 
 		<!-- Footer -->

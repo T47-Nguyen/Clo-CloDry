@@ -7,13 +7,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-#image-menu{
-	display: block;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -107,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		/*background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);*/
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -132,11 +125,10 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: 'FoundersGrotesk', sans-serif;
-    font-size: 72px;
-    line-height: 64px;
-    font-weight: normal;
-    font-style: normal;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 17pt;
+		font-weight: 300;
+		line-height: 1.65;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -216,7 +208,6 @@ input, select, textarea {
 	h1 {
 		font-size: 2.5em;
 		line-height: 1.2;
-
 	}
 
 	h2 {
@@ -326,8 +317,6 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 	}
-
-	
 
 	blockquote {
 		border-left-color: rgba(255, 255, 255, 0.35);
@@ -3126,7 +3115,7 @@ input, select, textarea {
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				display: block;
-				margin: 0 0 6.5em 0;
+				margin: 0 0 1.5em 0;
 			}
 
 				#header.alt .logo img {
