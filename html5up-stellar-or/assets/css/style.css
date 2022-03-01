@@ -1,3 +1,9 @@
+body, input, select, textarea {
+    font-family: 'Courgette', cursive;
+}
+
+
+
 #main {
     background-color: #F2DFA7;
     color: black;
