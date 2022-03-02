@@ -2,7 +2,9 @@ body, input, select, textarea {
     font-family: 'Courgette', cursive;
 }
 
-
+#logo{
+    width: 50%;
+}
 
 #main {
     background-color: #F2DFA7;
