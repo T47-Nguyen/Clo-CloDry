@@ -1,9 +1,12 @@
 body, input, select, textarea {
     font-family: 'Courgette', cursive;
-}
 
+}
 #logo{
     width: 50%;
+}
+#nav {
+    color: blueviolet;
 }
 
 #main {
@@ -13,7 +16,24 @@ body, input, select, textarea {
     font-weight: 500;
   
 }
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+    color: purple;
+}
+#main input[type="submit"],
+	#main input[type="reset"],
+		#main input[type="button"],
+		#main button,
+		#main .button {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 4px #dddddd;
+			color: palevioletred !important;
+		}
+
 h1 {
     color: lightpink;
     font-weight: 700;
+}
+
+#map{
+    width: 50%;
 }
