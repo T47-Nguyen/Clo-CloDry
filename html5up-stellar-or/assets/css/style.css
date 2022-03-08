@@ -2,9 +2,14 @@ body, input, select, textarea {
     font-family: 'Courgette', cursive;
 
 }
-#logo{
-    width: 50%;
+
+
+#header.alt .logo img {
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
 }
+
 #nav {
     color: blueviolet;
 }
