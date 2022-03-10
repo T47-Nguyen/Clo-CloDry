@@ -3,7 +3,6 @@ body, input, select, textarea {
 
 }
 
-
 #header.alt .logo img {
     display: block;
     margin: 0 auto;
@@ -11,18 +10,19 @@ body, input, select, textarea {
 }
 
 #nav {
-    color: blueviolet;
+    color: black;
 }
 
 #main {
-    background-color: #F2DFA7;
-    color: black;
+    background-color: #ADB4BC;
+    color: #636165;
     border-radius: 0.25em;
     font-weight: 500;
   
 }
+
 #main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-    color: purple;
+    color: #231A34;
 }
 #main input[type="submit"],
 	#main input[type="reset"],
@@ -35,7 +35,7 @@ body, input, select, textarea {
 		}
 
 h1 {
-    color: lightpink;
+    color: rgb(53, 33, 163);
     font-weight: 700;
 }
 
