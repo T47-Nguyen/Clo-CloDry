@@ -2,6 +2,11 @@ body, input, select, textarea {
     font-family: 'Courgette', cursive;
 
 }
+body {
+		background-color: #ffffff;
+		
+	}
+
 
 #header.alt .logo img {
     display: block;
@@ -14,7 +19,7 @@ body, input, select, textarea {
 }
 
 #main {
-    background-color: #ADB4BC;
+    background-color: #F2D06B;
     color: #636165;
     border-radius: 0.25em;
     font-weight: 500;
@@ -43,3 +48,24 @@ h1 {
     width: 90%;
     height: 25em;
 }
+
+/* Color Theme Swatches in Hex */
+.UI/UX-1-hex { color: #F2C53D; }
+.UI/UX-2-hex { color: #F2D06B; }
+.UI/UX-3-hex { color: #BF861B; }
+.UI/UX-4-hex { color: #F2F2F2; }
+.UI/UX-5-hex { color: #262626; }
+
+/* Color Theme Swatches in RGBA */
+.UI/UX-1-rgba { color: rgba(242, 196, 60, 1); }
+.UI/UX-2-rgba { color: rgba(242, 208, 106, 1); }
+.UI/UX-3-rgba { color: rgba(191, 133, 26, 1); }
+.UI/UX-4-rgba { color: rgba(242, 242, 242, 1); }
+.UI/UX-5-rgba { color: rgba(38, 38, 38, 1); }
+
+/* Color Theme Swatches in HSLA */
+.UI/UX-1-hsla { color: hsla(45, 87, 59, 1); }
+.UI/UX-2-hsla { color: hsla(45, 84, 68, 1); }
+.UI/UX-3-hsla { color: hsla(39, 75, 42, 1); }
+.UI/UX-4-hsla { color: hsla(0, 0, 95, 1); }
+.UI/UX-5-hsla { color: hsla(0, 0, 15, 1); }

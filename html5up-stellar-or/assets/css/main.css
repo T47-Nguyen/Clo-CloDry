@@ -2967,6 +2967,8 @@ input, select, textarea {
 
 		}
 
+		
+
 /* Spotlight */
 
 	.spotlight {
@@ -2979,6 +2981,8 @@ input, select, textarea {
 		-ms-align-items: center;
 		align-items: center;
 		margin: 0 0 2em 0;
+	
+	
 	}
 
 		.spotlight .content {
@@ -3220,7 +3224,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #DC8468;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3692,6 +3696,7 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		background-color: #8A7FA9;
 	}
 
 		#footer > * {
@@ -3758,6 +3763,8 @@ input, select, textarea {
 			}
 
 		}
+
+
 
 /* Wrapper */
 
