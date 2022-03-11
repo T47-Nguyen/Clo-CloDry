@@ -3,7 +3,7 @@ body, input, select, textarea {
 
 }
 body {
-		background-color: #ffffff;
+		background-color: #e0e7ff;
 		
 	}
 
@@ -18,17 +18,44 @@ body {
     color: black;
 }
 
+#nav {
+    -moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+    -webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+    -ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+    transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+    background-color: #ffffff;
+    color: #312e81;
+    position: absolute;
+    width: 64em;
+    max-width: calc(100% - 4em);
+    padding: 1em;
+    background-color: #fda4af;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    cursor: default;
+    text-align: center;
+}
+
+
 #main {
-    background-color: #F2D06B;
+    background-color: #ffe4e6;
     color: #636165;
     border-radius: 0.25em;
     font-weight: 500;
   
 }
-
-#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-    color: #231A34;
+#main h2{
+    color: #be123c;
 }
+#main p{
+    font-size: small;
+    font-style: normal;
+    color: #000;
+    
+}
+/*#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+    color: #231A34;
+}*/
 #main input[type="submit"],
 	#main input[type="reset"],
 		#main input[type="button"],
@@ -49,23 +76,6 @@ h1 {
     height: 25em;
 }
 
-/* Color Theme Swatches in Hex */
-.UI/UX-1-hex { color: #F2C53D; }
-.UI/UX-2-hex { color: #F2D06B; }
-.UI/UX-3-hex { color: #BF861B; }
-.UI/UX-4-hex { color: #F2F2F2; }
-.UI/UX-5-hex { color: #262626; }
-
-/* Color Theme Swatches in RGBA */
-.UI/UX-1-rgba { color: rgba(242, 196, 60, 1); }
-.UI/UX-2-rgba { color: rgba(242, 208, 106, 1); }
-.UI/UX-3-rgba { color: rgba(191, 133, 26, 1); }
-.UI/UX-4-rgba { color: rgba(242, 242, 242, 1); }
-.UI/UX-5-rgba { color: rgba(38, 38, 38, 1); }
-
-/* Color Theme Swatches in HSLA */
-.UI/UX-1-hsla { color: hsla(45, 87, 59, 1); }
-.UI/UX-2-hsla { color: hsla(45, 84, 68, 1); }
-.UI/UX-3-hsla { color: hsla(39, 75, 42, 1); }
-.UI/UX-4-hsla { color: hsla(0, 0, 95, 1); }
-.UI/UX-5-hsla { color: hsla(0, 0, 15, 1); }
+#footer p{
+    color: #ffffff;
+}
