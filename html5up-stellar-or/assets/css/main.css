@@ -2462,6 +2462,7 @@ input, select, textarea {
 
 		dl dd {
 			margin-left: 2em;
+			color: #ffffff;
 		}
 
 		dl.alt dt {
