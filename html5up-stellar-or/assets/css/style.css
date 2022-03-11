@@ -67,9 +67,9 @@ body {
     font-size: medium;
 
 }
-/*#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-    color: #231A34;
-}*/
+#main p content{
+    font-family: sans-serif;
+}
 #main input[type="submit"],
 	#main input[type="reset"],
 		#main input[type="button"],
