@@ -2721,6 +2721,8 @@ input, select, textarea {
 			border: solid 1px;
 			border-left: 0;
 			border-right: 0;
+			color:#4338ca;
+			font-size: small;
 		}
 
 		table td {
@@ -2728,7 +2730,7 @@ input, select, textarea {
 		}
 
 		table th {
-			font-size: 0.9em;
+			font-size: small;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
@@ -2736,6 +2738,7 @@ input, select, textarea {
 
 		table thead {
 			border-bottom: solid 2px;
+			
 		}
 
 		table tfoot {
@@ -2777,7 +2780,7 @@ input, select, textarea {
 		}
 
 	table th {
-		color: #ffffff;
+		color:#4f46e5;
 	}
 
 	table thead {
