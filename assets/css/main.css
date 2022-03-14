@@ -189,7 +189,7 @@ input, select, textarea {
 			-webkit-column-gap: 2em;
 			-ms-column-gap: 2em;
 			column-gap: 2em;
-			text-align: justify;
+			text-align: center;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
